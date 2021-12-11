@@ -1,9 +1,34 @@
 admins: []
-forwa
-- source: -100
-  dest
+forwards:
+- source: -1001255398384
   dest:
-  - -
-
-  end: 0
-- badwordu
+  - -1001530546753
+  - -1001663359641
+  offset: 3000
+  end: 5000
+show_forwarded_from: false
+live:
+  delete_sync: false
+  delete_on_edit: null
+past:
+  delay: 3.0
+plugins:
+  replace:
+    text:
+      '@Telugudubbing_movies - ': 'Join @REQ_MVS - '
+      '@ALBCINEMASALL': Join @REQ_MVS
+      '@mwkOTT': '@REQ_MVS'
+      '@mwkFiles': '@REQ_MVS'
+      '@mwkfiles': '@REQ_MVS'
+      '@movieworldkdy': '@REQ_MVS'
+      '@mwkbots': '@REQ_MVS'
+      '@AVA': '@REQ_MVS'
+      '@CCineClub': '@REQ_MVS'
+      'CCineClub_0': '@REQ_MVS'
+      '@mwkott': '@REQ_MVS'
+      '@Popcorn_Cinemas': '@REQ_MVS'
+      '@MM_New': Join @REQ_MVS
+      '[CF]': '@REQ_MVS'
+      '@Onmoviess': '@REQ_MVS'
+      '@fullyfilmie': '@REQ_MVS'
+      regex: true
