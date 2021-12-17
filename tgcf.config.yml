@@ -29,4 +29,5 @@ plugins:
       '@TrollJunction4': '@REQ_MVS'
       '@TrollJunction': '@REQ_MVS'
       '@MoviejunctionAll': '@REQ_MVS'
+      '@Mj_Linkz': '@REQ_MVS'
       regex: true
