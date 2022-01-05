@@ -1,10 +1,10 @@
 admins: []
 forwards:
-- source: -1001603456835
+- source: -1001585197181
   dest:
-  - -1001596715722
-  - -1001739535037
-  offset: 1112
+  - -1001784762523
+  - -1001694778504
+  offset: 1
   end: 0
 show_forwarded_from: false
 live:
@@ -15,6 +15,13 @@ past:
 plugins:
   replace:
     text:
-      '@MovieJunction - ': 'Join @REQ_MVS - '
-      '@MovieJunctionChannel': Join @REQ_MVS
+      '@MovieJunction': 'Join @REQ_MVS'
+      '@MovieJunctionChannel': 'Join @REQ_MVS'
+      '@Mj_Filmography' : 'Join @REQ_MVS'
+      '@Mj_Linkz' : 'Join @REQ_MVS'
+      '@Moviejunction_Group' : 'Join @REQ_MVS'
+      '@MJ_Series' : 'Join @REQ_MVS'
+      '@MJ_Hevc' : 'Join @REQ_MVS'
+      '@Mj_OTT' : 'Join @REQ_MVS'
+      
       regex: true
