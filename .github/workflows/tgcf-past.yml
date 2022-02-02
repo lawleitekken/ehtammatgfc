@@ -1,4 +1,4 @@
-name: tgcf-past
+Yname: tgcf-past
 
 on:
   workflow_dispatch: # run when triggered manually
@@ -27,5 +27,5 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: unknwn
+          branch: mvetime
           message: push files changed
