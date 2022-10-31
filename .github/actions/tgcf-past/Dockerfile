@@ -1,3 +1,3 @@
-FROM lawleitekken/tgcf
+FROM lawleitekken/tgcff
 
 CMD tgcf --loud
