@@ -1,10 +1,9 @@
 admins: []
 forwards:
-- source: -100777000
-  dest:
-  - -1001526716875
-  offset: 0
-  end: 0
+  - source: -100777000
+    dest: -1001526716875
+    offset: 1 # **_msg id for starting_    **
+    end: 0
 show_forwarded_from: false
 live:
   delete_sync: false
